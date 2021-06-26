@@ -1,3 +1,7 @@
 :root {
-   --bg-color: hsl(200 10% 10%);
+   --bg-color: hsl(200, 10%, 10%);
+
+   --blue: hsl(220, 50%, 50%);
+   --deep-blue: hsl(240, 50%, 50%);
+   --purple: hsl(260, 50%, 50%);
 }

@@ -5,4 +5,5 @@
    width: 100%;
 
    box-shadow: 0 5px 10px black;
+   background: var(--bg-color);
 }

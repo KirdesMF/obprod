@@ -1,0 +1,30 @@
+.title {
+   display: grid;
+   background: linear-gradient(to right, var(--bg-color), transparent 50%),
+      linear-gradient(to left, var(--bg-color), transparent 50%),
+      linear-gradient(to top, var(--bg-color), transparent 30%),
+      linear-gradient(to bottom, var(--bg-color), transparent 30%);
+}
+
+.title__svg {
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+}
+
+.title > * {
+   grid-area: 1 / 1 / -1 / -1;
+}
+
+.title__content {
+   place-self: center;
+   padding: 1rem 3rem;
+
+   font-size: 2rem;
+   font-family: var(--font-title);
+   text-shadow: 2px 2px 15px black;
+   box-shadow: 0px 0px 5px black;
+   border-radius: 0.25rem;
+   color: white;
+   background: hsla(200, 10%, 10%, 0.8);
+}

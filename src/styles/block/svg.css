@@ -6,15 +6,15 @@ svg.icons {
 }
 
 linearGradient#gradient {
-   --start: hsl(200deg 10% 10%);
-   --mid: white;
-   --stop: hsl(200deg 10% 10%);
+   --start: var(--blue);
+   --stop: var(--bg-color);
+   --mid: var(--deep-blue);
 }
 
 linearGradient#gradient-icon {
-   --start-icon: plum;
-   --mid-icon: purple;
-   --stop-icon: hsl(200deg 10% 10%);
+   --start-icon: var(--blue);
+   --mid-icon: var(--deep-blue);
+   --stop-icon: var(--purple);
 }
 
 .pattern {
