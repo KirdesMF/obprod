@@ -5,7 +5,7 @@
    "scripts": {
       "prestart": "rm -rf .parcel-cache dist",
       "start": "parcel serve ./src/index.html --open",
-      "prebuild": "rm -rf public",
+      "prebuild": "rm -rf public .parcel-cache",
       "build": "parcel build ./src/index.html --dist-dir public"
    },
    "repository": {
