@@ -59,6 +59,13 @@
             <stop offset="70%" stop-color="var(--stop)" />
          </linearGradient>
 
+         <linearGradient id="gradient-hero" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="userSpaceOnUse"
+            gradientTransform="rotate(35)">
+            <stop offset="0%" stop-color="var(--start-hero)" />
+            <stop offset="40%" stop-color="var(--mid-hero)" />
+            <stop offset="70%" stop-color="var(--stop-hero)" />
+         </linearGradient>
+
          <linearGradient id="gradient-icon" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="userSpaceOnUse"
             gradientTransform="rotate(35)">
             <stop offset="0%" stop-color="var(--start-icon)" />
@@ -70,6 +77,11 @@
          <pattern id="pattern-ob" x="0" y="0" width="55" height="65" viewBox="0 0 100 100" patternUnits="userSpaceOnUse"
             patternTransform="rotate(-45)">
             <use class="pattern" href="#ob" />
+         </pattern>
+
+         <pattern id="pattern-ob-card" x="0" y="0" width="55" height="65" viewBox="0 0 100 100"
+            patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+            <use class="pattern-card" href="#ob" />
          </pattern>
       </defs>
    </svg>
@@ -145,13 +157,99 @@
 
       <section class="panel">
          <div class="wrapper">
-            <div class="inner">
+            <div class="flow">
                <div class="title">
                   <svg class="title__svg" xmlns="http://www.w3.org/2000/svg">
                      <rect height="100%" width="100%" fill="url(#pattern-ob)" />
                   </svg>
 
                   <h2 class="title__content">Artistes</h2>
+               </div>
+
+               <div class="video flow">
+                  <article class="video-card">
+                     <iframe src="https://www.youtube.com/embed/gPPuOhCdXeE" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                     <div class="video-card__content">
+                        <svg xmlns="http://www.w3.org/2000/svg">
+                           <rect height="100%" width="100%" fill="url(#pattern-ob-card)" />
+                        </svg>
+
+                        <div class="video-card__info">
+                           <h2>MO2 Warrabis</h2>
+                           <p>CV2M #2</p>
+                        </div>
+
+                        <ul class="video-card__social">
+                           <li>
+                              <a href="">
+                                 <svg>
+                                    <use href="#youtube" />
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="">
+                                 <svg>
+                                    <use href="#snapchat" />
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="">
+                                 <svg>
+                                    <use href="#insta" />
+                                 </svg>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </article>
+
+                  <article class="video-card">
+                     <iframe src="https://www.youtube.com/embed/9fV4XAHxAUY" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                     <div class="video-card__content">
+                        <svg xmlns="http://www.w3.org/2000/svg">
+                           <rect height="100%" width="100%" fill="url(#pattern-ob-card)" />
+                        </svg>
+
+                        <div class="video-card__info">
+                           <h2>Leonis</h2>
+                           <p>Sherwood #2</p>
+                        </div>
+
+                        <ul class="video-card__social">
+                           <li>
+                              <a href="">
+                                 <svg>
+                                    <use href="#youtube" />
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="">
+                                 <svg>
+                                    <use href="#snapchat" />
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="">
+                                 <svg>
+                                    <use href="#insta" />
+                                 </svg>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </article>
                </div>
             </div>
          </div>

@@ -11,13 +11,24 @@ linearGradient#gradient {
    --mid: var(--deep-blue);
 }
 
+linearGradient#gradient-hero {
+   --start-hero: var(--blue);
+   --mid-hero: var(--deep-blue);
+   --stop-hero: var(--purple);
+}
+
 linearGradient#gradient-icon {
-   --start-icon: var(--blue);
-   --mid-icon: var(--deep-blue);
-   --stop-icon: var(--purple);
+   --start-icon: var(--bg-color);
+   --mid-icon: var(--color-text);
+   --stop-icon: var(--bg-color);
 }
 
 .pattern {
    --fill: url(#gradient);
    --stroke: url(#gradient);
+}
+
+.pattern-card {
+   --fill: url(#gradient-icon);
+   --stroke: url(#gradient-icon);
 }

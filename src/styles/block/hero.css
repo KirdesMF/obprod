@@ -5,8 +5,8 @@
 }
 
 .hero__icon {
-   --fill: url(#gradient-icon);
-   --stroke: url(#gradient-icon);
+   --fill: url(#gradient-hero);
+   --stroke: url(#gradient-hero);
 
    height: 15rem;
 }
