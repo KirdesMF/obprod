@@ -4,4 +4,5 @@
    --blue: hsl(220, 50%, 50%);
    --deep-blue: hsl(240, 50%, 50%);
    --purple: hsl(260, 50%, 50%);
+   --color-text: hsl(0, 70%, 95%);
 }
