@@ -1,0 +1,17 @@
+@font-face {
+   font-family: 'Montserrat Black';
+   src: local('Montserrat Black'), url(../../assets/fonts/Montserrat-Black.ttf);
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'HindMadurai Regular';
+   src: local('HindMadurai Regular'),
+      url(../../assets/fonts/HindMadurai-Regular.ttf);
+   font-display: swap;
+}
+
+:root {
+   --font-title: 'Montserrat Black';
+   --font-text: 'HindMadurai Regular';
+}

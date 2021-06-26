@@ -1,0 +1,35 @@
+.hero {
+   display: grid;
+   place-items: center;
+   height: 50vh;
+}
+
+.hero__icon {
+   --fill: url(#gradient-icon);
+   --stroke: url(#gradient-icon);
+
+   height: 15rem;
+}
+
+.hero__list {
+   color: white;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   list-style: none;
+
+   display: grid;
+   place-items: center;
+   border-bottom: 1px solid white;
+}
+
+.hero__list > li {
+   grid-area: 1 / 1 / -1 / -1;
+   top: 0;
+   right: 0;
+
+   font-size: 2rem;
+   text-transform: uppercase;
+   font-family: var(--font-title);
+   transform: translateY(100px);
+}
