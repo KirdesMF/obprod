@@ -1,0 +1,11 @@
+.intro__inner {
+   display: grid;
+   place-items: center;
+}
+
+.intro__inner p {
+   max-width: 50rem;
+   text-align: center;
+   color: white;
+   font-family: var(--font-text);
+}
