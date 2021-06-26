@@ -1,3 +1,5 @@
-body {
-   background: red;
-}
+@import './base/reset.css';
+@import './base/colors.css';
+@import './base/global.css';
+
+@import './block/svg.css';

@@ -1,0 +1,23 @@
+svg.defs,
+svg.icons {
+   position: absolute;
+   width: 0;
+   height: 0;
+}
+
+linearGradient#gradient {
+   --start: hsl(200deg 10% 10%);
+   --mid: white;
+   --stop: hsl(200deg 10% 10%);
+}
+
+linearGradient#gradient-icon {
+   --start-icon: plum;
+   --mid-icon: purple;
+   --stop-icon: hsl(200deg 10% 10%);
+}
+
+.pattern {
+   --fill: url(#gradient);
+   --stroke: url(#gradient);
+}
