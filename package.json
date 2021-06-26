@@ -1,0 +1,24 @@
+{
+   "name": "obprod",
+   "version": "1.0.0",
+   "description": "## 🚧 Site under construction 🚧",
+   "scripts": {
+      "delete-cache": "rm -rf .parcel-cache",
+      "start": "parcel serve index.html --open",
+      "build": "parcel build index.html --dist-dir public"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/KirdesMF/obprod.git"
+   },
+   "author": "KirdesMF",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/KirdesMF/obprod/issues"
+   },
+   "homepage": "https://github.com/KirdesMF/obprod#readme",
+   "browserslist": "> 0.2%",
+   "devDependencies": {
+      "parcel": "^2.0.0-beta.3.1"
+   }
+}
