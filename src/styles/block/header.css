@@ -6,4 +6,23 @@
 
    box-shadow: 0 5px 10px black;
    background: var(--bg-color);
+
+   display: grid;
+   align-items: center;
+
+   padding: 0 var(--padding-wrapper, 2.5rem);
+}
+
+.header h1 {
+   color: var(--color-text);
+   display: flex;
+   align-items: center;
+   font-size: 1rem;
+}
+
+.header svg {
+   --fill: var(--color-text);
+   --stroke: var(--color-text);
+   height: 1.5rem;
+   width: 1.5rem;
 }
