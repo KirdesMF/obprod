@@ -41,10 +41,14 @@
 
    display: grid;
    align-items: center;
+   white-space: nowrap;
 }
 
 .video-card__info > :first-child {
    font-family: var(--font-title);
+   font-size: var(--font-fluid-title);
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
 
 .video-card__info > :last-child {
