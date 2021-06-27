@@ -1,0 +1,14 @@
+.footer {
+   height: 5rem;
+   background: hsl(200, 10%, 8%);
+
+   display: grid;
+   place-items: center;
+}
+
+.footer svg {
+   --fill: var(--color-text);
+   --stroke: var(--color-text);
+   height: 1.5rem;
+   width: 1.5rem;
+}
